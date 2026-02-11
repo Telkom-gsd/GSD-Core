@@ -4,6 +4,7 @@ export interface WebsiteConfig {
   description: string;
   url: string;
   domain: string;
+  previewImage: string;
 }
 
 export const websites: WebsiteConfig[] = [
@@ -13,6 +14,7 @@ export const websites: WebsiteConfig[] = [
     description: "Japati Space Application",
     url: "https://japati-space.vercel.app",
     domain: "japati-space.vercel.app",
+    previewImage: "/container-image/japatispace.png",
   },
   {
     id: "dashboard-bapp",
@@ -20,6 +22,7 @@ export const websites: WebsiteConfig[] = [
     description: "BAPP Dashboard Application",
     url: "https://dashboard-bapp.vercel.app",
     domain: "dashboard-bapp.vercel.app",
+    previewImage: "/container-image/dashboardbapp.png",
   },
   {
     id: "mo-kelistrikan",
@@ -27,6 +30,7 @@ export const websites: WebsiteConfig[] = [
     description: "MO Kelistrikan Application",
     url: "https://mo-kelistrikan.vercel.app",
     domain: "mo-kelistrikan.vercel.app",
+    previewImage: "/container-image/mokelistrikan.png",
   },
   {
     id: "gsd-tools",
@@ -34,5 +38,6 @@ export const websites: WebsiteConfig[] = [
     description: "PDF Maker untuk laporan Digislam",
     url: "https://script.google.com/macros/s/AKfycbwmjc3e1DNsOgwuwAHYQEf130jsOiZClXw5AQqIUt8uPNtd18oP7pSUkSzJz2R3voPz/exec",
     domain: "script.google.com",
+    previewImage: "/container-image/pdfmakerdigislam.png",
   },
 ];

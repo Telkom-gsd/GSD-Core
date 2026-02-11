@@ -62,7 +62,7 @@ export function WebsiteCard({ website }: WebsiteCardProps) {
 
   return (
     <Card className="overflow-hidden p-0 shadow-sm transition-shadow hover:shadow-md">
-      <WebsitePreview url={website.url} alt={`Preview of ${website.name}`} />
+      <WebsitePreview imageSrc={website.previewImage} alt={`Preview of ${website.name}`} />
 
       <CardContent className="p-4 space-y-3">
         <div className="flex items-start justify-between gap-2">
