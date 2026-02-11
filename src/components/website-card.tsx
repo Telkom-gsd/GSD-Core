@@ -61,7 +61,7 @@ export function WebsiteCard({ website }: WebsiteCardProps) {
   const currentStatus = statusConfig[status];
 
   return (
-    <Card className="overflow-hidden p-0 transition-shadow hover:shadow-lg">
+    <Card className="overflow-hidden p-0 shadow-sm transition-shadow hover:shadow-md">
       <WebsitePreview url={website.url} alt={`Preview of ${website.name}`} />
 
       <CardContent className="p-4 space-y-3">

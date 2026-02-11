@@ -15,7 +15,7 @@ export function WebsitePreview({ url, alt }: WebsitePreviewProps) {
 
   // Use microlink.io screenshot API for live website preview
   const screenshotUrl = `https://api.microlink.io/?url=${encodeURIComponent(
-    url
+    url,
   )}&screenshot=true&meta=false&embed=screenshot.url`;
 
   return (
