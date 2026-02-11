@@ -10,7 +10,7 @@ export default function Home() {
         <header className="text-center mb-12 md:mb-16">
           <div className="flex items-center justify-center gap-4 mb-4">
             <Image
-              src="/telkom-logo.svg"
+              src="/logo-telkom.png"
               alt="Telkom Logo"
               width={64}
               height={64}
